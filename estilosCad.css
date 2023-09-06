@@ -1,0 +1,74 @@
+* {
+    background-color: rgb(255, 234, 179);
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+#nome,
+#email,
+#telefone,
+#foto {
+    width: 70%;
+}
+
+label {
+    width: 30%;
+}
+
+#divcadastro {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#div {
+    display: flex;
+}
+
+#masculino {
+    border: 1px solid black;
+}
+
+#masculino,
+#feminino,
+#nb {
+
+    color: red;
+}
+
+/* ----------------formulario css -------------------------------------------------------------------------------------------------------------------- */
+header {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tracinho {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+button {
+    width: 4em;
+    margin: 0.2em;
+    height: 0.7em;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+}
+
+#submt {
+    background-color: greenyellow;
+    width: 6em;
+    height: 3em;
+}

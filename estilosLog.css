@@ -1,0 +1,56 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: rgb(204, 202, 202);
+}
+#container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    position: absolute;
+    width: 35%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 15px;
+}
+#fotofundo{
+    position: fixed;
+    width: 100%;
+    height: 100%;;
+}
+input{
+   
+    margin: 2%;
+    border-radius: 15em;
+    width: 90%;
+    height: 7%;
+}
+#botaocont{
+    border-radius: 15em;
+    width: 95%;
+    height: 9%;
+    display: flex;
+    flex-direction: row;
+    
+}
+#cadastro{
+    border-radius: 15em 0em 0em 15em;
+    width: 50%;
+    height: 100%;
+}
+#register{
+    border-radius: 15em 0em 0em 15em;
+    width: 100%;
+    height: 101%;
+}
+
+#login{
+    border-radius: 0em 15em 15em 0em;
+    width: 50%;
+    height: 100%;
+}

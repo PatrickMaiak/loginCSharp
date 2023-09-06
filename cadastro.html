@@ -1,36 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
-            background-color: rgb(255, 234, 179);
-        }
-        #container{
-            
-            
-            border: 1px solid black;
-        }
-    </style>
+    <link rel="stylesheet" href="estilosCad.css">
 </head>
+
 <body>
+    <header>
+        <h1>Faça o seu cadastro</h1>
+        <div id="tracinho">
+            <button></button>
+            <button></button>
+            <button></button>
+        </div>
+    </header>
     <div id="container">
         <form action="" method="get">
-          <fieldset> Dados Pessoais... <br>
-            <label for="nome">Digite o seu nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome">
-            <label for="nome">Digite o seu nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome">
-          
-            <label for="nome">Digite o seu nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome">
-            <label for="nome">Digite o seu nome</label>
-            <input type="text" id="nome" placeholder="Digite seu nome">
-          </fieldset>
+            <fieldset>
+                <legend> Dados Pessoais </legend>
+                <div id="divcadastro">
+                    <label for="nome">Digite o seu nome</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome"><br>
+                </div>
+
+                <div id="divcadastro">
+                    <label for="email">Digite o seu email</label>
+                    <input type="email" id="email" placeholder="Digite seu email"><br>
+                </div>
+
+                <div id="divcadastro">
+                    <label for="telefone">Digite o seu telefone</label>
+                    <input type="text" id="telefone" placeholder="Digite seu telefone"><br>
+                </div>
+                <div id="divcadastro">
+                    <label for="foto">Foto de Perfil</label>
+                    <input type="file" id="foto"><br>
+                </div>
+
+
+
+
+                <div id="div">
+                    <label for="genero">Informe Genero</label>
+                    <input type="radio" name="gn" id="masculino" value="masculino" />
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="gn" id="nb" value="nb" checked/>
+                    <label for="nb">Não binario</label>
+                    <input type="radio" name="gn" id="feminino" value="feminino"  />
+                    <label for="feminino">Feminino</label>
+                </div>
+                <div id="submit">
+                    <input onclick="verificar()" type="button" id="submt" />
+                </div>
+            </fieldset>
         </form>
     </div>
+
+    <script>
+
+        function verificar() {
+            // let nome = document.getElementById
+            if (nome.value == "") {
+                nome.focus()
+                alert("escreve algo")
+                return
+            }
+            if (email.value == "") {
+                email.focus()
+                alert("escreve algo")
+                return
+            }
+            if (telefone.value == "") {
+                telefone.focus()
+                alert("escreve algo")
+                return
+            }
+
+        }
+
+    </script>
+
 </body>
+
 </html>
