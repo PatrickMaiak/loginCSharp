@@ -10,41 +10,46 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <h1>Faça o seu cadastro</h1>
         <div id="tracinho">
-            <button></button>
-            <button></button>
-            <button></button>
+            <a href="./login.html"><button>Voltar</button></a>
         </div>
-    </header>
+    </header> -->
     <div id="container">
         <form action="" method="get">
             <fieldset>
                 <legend> Dados Pessoais </legend>
                 <div id="divcadastro">
-                    <label for="nome">Digite o seu nome</label>
+                    <label for="nome">Nome</label>
                     <input type="text" id="nome" placeholder="Digite seu nome"><br>
                 </div>
 
                 <div id="divcadastro">
-                    <label for="email">Digite o seu email</label>
+                    <label for="email">Email</label>
                     <input type="email" id="email" placeholder="Digite seu email"><br>
                 </div>
 
                 <div id="divcadastro">
-                    <label for="telefone">Digite o seu telefone</label>
+                    <label for="telefone">Celular</label>
                     <input type="text" id="telefone" placeholder="Digite seu telefone"><br>
                 </div>
                 <div id="divcadastro">
-                    <label for="foto">Foto de Perfil</label>
+                    <label for="foto">Foto</label>
                     <input type="file" id="foto"><br>
+                </div>
+                <div id="divcadastro">
+                    <label for="telefone">Nascimento</label>
+                    <input type="date" id="telefone" placeholder="Digite seu telefone">
+                    
                 </div>
 
 
+                <div id="submit">
+                    <input onclick="verificar()" type="button" id="submt" value="CADASTRAR" />
+                </div>
 
-
-                <div id="div">
+                <!-- <div id="div">
                     <label for="genero">Informe Genero</label>
                     <input type="radio" name="gn" id="masculino" value="masculino" />
                     <label for="masculino">Masculino</label>
@@ -53,9 +58,7 @@
                     <input type="radio" name="gn" id="feminino" value="feminino"  />
                     <label for="feminino">Feminino</label>
                 </div>
-                <div id="submit">
-                    <input onclick="verificar()" type="button" id="submt" />
-                </div>
+                 -->
             </fieldset>
         </form>
     </div>
